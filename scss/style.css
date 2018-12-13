@@ -1,14 +1,39 @@
+/*
+  Name font: Aardvark Cafe
+  Main font: Futura Black BT
+
+
+  Primary Colors
+  Green: #03fa50;
+  Blue:  #010fc7;
+  brown: #93901a;
+*/
 body {
   height: auto;
   margin: 0;
   padding: 0;
   width: 100%;
+  /* home*/
+}
+
+body #home {
+  background-color: #000;
+  background-image: url("../imgs/background-plain.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body header {
   width: 99.8%;
   height: 6.5vh;
   border: 1px solid blue;
+  background-color: #000;
+}
+
+body header p {
+  color: lightblue;
+  margin: 1% 5%;
+  font-size: 1.5rem;
 }
 
 body nav {
@@ -33,6 +58,16 @@ body nav ul li {
 body nav a {
   font-size: 1.2rem;
   word-spacing: 4px;
+  color: white;
+  text-decoration: none;
+}
+
+body nav a:hover {
+  text-decoration: underline;
+}
+
+body .gallery-thumb-box {
+  background-color: black;
 }
 
 section {
