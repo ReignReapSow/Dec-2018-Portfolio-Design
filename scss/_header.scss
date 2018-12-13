@@ -1,0 +1,33 @@
+
+//header
+header{
+  width: 99.8%;
+  height: 6.5vh;
+  border: 1px solid blue;
+}
+
+//NAV
+nav{
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+  float: right;
+  border: 1px dashed red;
+
+  ul{
+    margin: 0;
+
+    li{
+      display: inline-block;
+      margin: 0 2%;
+      border: 1px dashed green;
+      padding: 1%;
+      
+    }
+  }
+  a{
+    font-size: 1.2rem;
+    word-spacing: 4px;
+  }
+}
+

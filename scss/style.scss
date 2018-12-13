@@ -3,5 +3,33 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-   @import './header.scss';
+
+  //import header
+  @import './_header.scss';
+
+  
+
+  //import _gallery
+  @import '_gallery';
+
+  //import _contact
+  @import '_contact';
+
+  //import footer
+  @import '_footer';
+}
+
+section{
+  width: 100%;
+  height: 100vh;
+  border: 1px dotted yellow;
+}
+
+#heroTitle{
+  margin: 60vh 0 0 0;
+  text-align: center;
+  
+  h1{
+    font-size: 5rem;
+  }
 }
