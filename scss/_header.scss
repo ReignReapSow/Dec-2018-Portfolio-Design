@@ -7,9 +7,11 @@ header{
   background-color: #000;
   
   p {
-    color: lightblue;
+    font: $primary-font;
+    color: $secondary;
     margin: 1% 5%;
-    font-size: 1.5rem;
+    font-size: 2rem;
+
   }
 }
 
@@ -20,27 +22,37 @@ nav{
   margin: 0 auto;
   float: right;
   border: 1px dashed red;
+
   
 
   ul{
     margin: 0;
+    height: 100%;
+    border: 1px dashed yellow;
 
     li{
       display: inline-block;
       margin: 0 2%;
+      height: 59%;
       border: 1px dashed green;
       padding: 1%;
+      text-align: center;
+      
       
     }
   }
   a{
     font-size: 1.2rem;
     word-spacing: 4px;
-    color: white;
+    color: $primary;
     text-decoration: none;
+    padding: auto;
+    text-transform: uppercase;
+    font: $secondary-font;
 
     &:hover {
       text-decoration: underline;
+      color: $secondary;
     }
   }
 }

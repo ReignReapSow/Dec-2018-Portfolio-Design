@@ -2,8 +2,8 @@
 A portfolio design to showcase my lastest skills, experiences, and work.
 
 ## Technologies
-Front-end (html, css, scss, js, bootstrap)
-Back-end ()
+Front-end (html, css, scss, js, bootstrap)<br>
+Back-end ()<br>
 
 
 ### Version 

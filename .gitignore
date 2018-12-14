@@ -1,3 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
 *.ftp-data
 .personal-data
-design-instructions.txt
+scss/style.css.map
+.idea/
+scss/.sass-cache
+scss/fonts/AARDVARK_CAFE.TTF
+scss/fonts/FUTURA_BLACK_BT.ttf
+scss/fonts/aardvark_cafe.zip
+scss/fonts/futurablack-bt.zip

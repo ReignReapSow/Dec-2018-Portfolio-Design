@@ -2,86 +2,136 @@
   Name font: Aardvark Cafe
   Main font: Futura Black BT
 
+  
 
   Primary Colors
   Green: #03fa50;
   Blue:  #010fc7;
   brown: #93901a;
 */
+@font-face {
+  font-family: Futura;
+  src: url(fonts/FUTURA_BLACK_BT.ttf);
+  font-weight: normal; }
+@font-face {
+  font-family: Aardvark;
+  src: url(fonts/AARDVARK_CAFE.TTF);
+  font-weight: normal; }
 body {
   height: auto;
   margin: 0;
   padding: 0;
   width: 100%;
-  /* home*/
-}
+  /* home*/ }
+  body section {
+    width: 100%;
+    height: 100vh;
+    border: 1px dotted yellow; }
+  body .MockUp-One-Box {
+    margin: 5px;
+    border: 1px solid red; }
+    body .MockUp-One-Box .MockUp-One {
+      display: none;
+      border: 1px dashed orange;
+      margin: 50%; }
+  body #home {
+    background-color: #000;
+    background-image: url("../imgs/background-plain.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  body #heroTitle-box {
+    margin: 60vh auto 0 auto;
+    text-align: center;
+    width: 33%;
+    vertical-align: middle; }
+    body #heroTitle-box h1 {
+      color: #03fa50;
+      font-size: 5rem;
+      margin: 0;
+      text-shadow: 4px 2px #000; }
+    body #heroTitle-box span {
+      font-size: 2rem;
+      color: #010fc7;
+      text-transform: uppercase; }
+      body #heroTitle-box span:hover {
+        color: #03fa50; }
+  body header {
+    width: 99.8%;
+    height: 6.5vh;
+    border: 1px solid blue;
+    background-color: #000; }
+    body header p {
+      font: Futura;
+      color: #03fa50;
+      margin: 1% 5%;
+      font-size: 2rem; }
+  body nav {
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    float: right;
+    border: 1px dashed red; }
+    body nav ul {
+      margin: 0;
+      height: 100%;
+      border: 1px dashed yellow; }
+      body nav ul li {
+        display: inline-block;
+        margin: 0 2%;
+        height: 59%;
+        border: 1px dashed green;
+        padding: 1%;
+        text-align: center; }
+    body nav a {
+      font-size: 1.2rem;
+      word-spacing: 4px;
+      color: #010fc7;
+      text-decoration: none;
+      padding: auto;
+      text-transform: uppercase;
+      font: Aardvark; }
+      body nav a:hover {
+        text-decoration: underline;
+        color: #03fa50; }
+  body #gallery {
+    width: 100%;
+    height: 100vh;
+    border: 1px dotted red; }
+    body #gallery h2 {
+      background-color: blue;
+      text-align: center;
+      font-size: 2rem; }
+  body .gallery-thumb-box {
+    border: 1px dashed red;
+    width: 95%;
+    height: 85vh;
+    margin: auto;
+    padding: 0;
+    background-color: black; }
+    body .gallery-thumb-box .gallery-row {
+      background: blue;
+      width: 100%;
+      height: 30%;
+      margin: 0; }
+    body .gallery-thumb-box .project-box {
+      width: 20%;
+      display: inline-block;
+      width: 20%;
+      height: auto;
+      border: 1px solid red;
+      margin: 0 2.2%;
+      color: white; }
+      body .gallery-thumb-box .project-box h3 {
+        text-align: center;
+        background-color: #000;
+        margin: 0; }
+      body .gallery-thumb-box .project-box span {
+        text-align: center;
+        width: 100%;
+        height: auto;
+        background-color: #03fa50; }
+    body .gallery-thumb-box .project-box img {
+      width: 100%;
+      height: 16.2vh; }
 
-body #home {
-  background-color: #000;
-  background-image: url("../imgs/background-plain.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-body header {
-  width: 99.8%;
-  height: 6.5vh;
-  border: 1px solid blue;
-  background-color: #000;
-}
-
-body header p {
-  color: lightblue;
-  margin: 1% 5%;
-  font-size: 1.5rem;
-}
-
-body nav {
-  height: 100%;
-  width: 60%;
-  margin: 0 auto;
-  float: right;
-  border: 1px dashed red;
-}
-
-body nav ul {
-  margin: 0;
-}
-
-body nav ul li {
-  display: inline-block;
-  margin: 0 2%;
-  border: 1px dashed green;
-  padding: 1%;
-}
-
-body nav a {
-  font-size: 1.2rem;
-  word-spacing: 4px;
-  color: white;
-  text-decoration: none;
-}
-
-body nav a:hover {
-  text-decoration: underline;
-}
-
-body .gallery-thumb-box {
-  background-color: black;
-}
-
-section {
-  width: 100%;
-  height: 100vh;
-  border: 1px dotted yellow;
-}
-
-#heroTitle {
-  margin: 60vh 0 0 0;
-  text-align: center;
-}
-
-#heroTitle h1 {
-  font-size: 5rem;
-}
 /*# sourceMappingURL=style.css.map */

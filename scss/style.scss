@@ -2,6 +2,7 @@
   Name font: Aardvark Cafe
   Main font: Futura Black BT
 
+  
 
   Primary Colors
   Green: #03fa50;
@@ -9,59 +10,56 @@
   brown: #93901a;
 */
 
+@font-face {
+  font-family: Futura;
+  src: url(fonts/FUTURA_BLACK_BT.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: Aardvark;
+  src: url(fonts/AARDVARK_CAFE.TTF);
+  font-weight: normal;
+}
+
+//FONTS
+$primary-font: Futura;
+$secondary-font: Aardvark;
+
 //Primary Colors
-$Primary: #010fc7;
-$Secondary: #03fa50;
-$Tertiary:  #93901a;
+$primary: #010fc7;
+$secondary: #03fa50;
+$tertiary:  #93901a;
 
 body { 
   height: auto;
   margin: 0;
   padding: 0;
   width: 100%;
-
-/* home*/
-
-#home {
-  background-color: #000;
-  background-image: url("../imgs/background-plain.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  //z-index: 1;
+  //position: absolute;
 
 
 
-  //import header
-  @import './_header.scss';
 
-  
-
-  //import _gallery
-  @import '_gallery';
-
-  .gallery-thumb-box {
-    background-color: black;
-  }
-
-  //import _contact
-  @import '_contact';
-
-  //import footer
-  @import '_footer';
-}
-
-section{
+section {
   width: 100%;
   height: 100vh;
   border: 1px dotted yellow;
 }
 
-#heroTitle{
-  margin: 60vh 0 0 0;
-  text-align: center;
-  
-  h1{
-    font-size: 5rem;
-  }
+  //import home
+  @import '_home.scss';
+  //import header
+  @import '_header.scss';
+
+  //import gallery
+  @import '_gallery.scss';
+
+  //import contact
+  @import '_contact.scss';
+
+  //import footer
+  @import '_footer.scss';
+
 }
 
