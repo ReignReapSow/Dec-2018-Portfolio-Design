@@ -3,7 +3,7 @@
 header{
   width: 99.8%;
   height: 6.5vh;
-  background-color: #000;
+  text-shadow: 1px 1px #000;
   margin: 0;
   
   p {
@@ -33,14 +33,19 @@ nav{
       height: 59%;
       padding: 1%;
       text-align: center;
-      
-      
+
+      transition: all 1s ease-out;
+      &:hover {
+        text-shadow: 1.5px 1.5px #000;
+      }
     }
+
+
   }
   a{
     font-size: 1.5rem;
     word-spacing: 4px;
-    color: $primary;
+    color: $fourth;
     text-decoration: none;
     padding: auto;
     text-transform: uppercase;

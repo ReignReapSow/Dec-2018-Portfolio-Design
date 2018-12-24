@@ -57,7 +57,7 @@ body {
 header {
   width: 99.8%;
   height: 6.5vh;
-  background-color: #000;
+  text-shadow: 1px 1px #000;
   margin: 0; }
   header p {
     font: Futura;
@@ -78,11 +78,14 @@ nav {
       margin: 0 2%;
       height: 59%;
       padding: 1%;
-      text-align: center; }
+      text-align: center;
+      transition: all 1s ease-out; }
+      nav ul li:hover {
+        text-shadow: 1.5px 1.5px #000; }
   nav a {
     font-size: 1.5rem;
     word-spacing: 4px;
-    color: #010fc7;
+    color: #00ffff;
     text-decoration: none;
     padding: auto;
     text-transform: uppercase;
@@ -95,11 +98,12 @@ nav {
   width: 100%;
   height: 100vh;
   background-color: #010fc7; }
-  #gallery h2 {
-    color: #00ffff;
-    text-align: center;
-    font-size: 3rem;
-    margin: 1%; }
+
+h2 {
+  color: #00ffff;
+  text-align: center;
+  font-size: 3rem;
+  margin: 1%; }
 
 .gallery-thumb-box {
   width: 95%;
@@ -112,7 +116,7 @@ nav {
   .gallery-thumb-box .gallery-row {
     width: 95%;
     height: 45%;
-    margin: 2.5% 2.5%;
+    margin: 1.5% 2.5%;
     border: 1px dotted orange; }
   .gallery-thumb-box .project-box {
     width: 20%;
@@ -131,19 +135,21 @@ nav {
       margin: 0;
       color: #c3c022; }
     .gallery-thumb-box .project-box p {
-      font-size: 120%;
+      font-size: 90%;
       text-align: center;
       width: 100%;
       height: auto;
       margin: 0 auto;
       color: #03fa50; }
+    .gallery-thumb-box .project-box .sub-category {
+      font-size: 95%; }
     .gallery-thumb-box .project-box:hover {
       width: 19.5%;
       background-color: rgba(0, 0, 0, 0.5); }
 
 .projectThumbBox {
   width: 100%;
-  height: 50%;
+  height: 70%;
   margin: 0; }
   .projectThumbBox img {
     border: 1px dashed red;
