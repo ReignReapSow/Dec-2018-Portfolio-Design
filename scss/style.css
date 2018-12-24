@@ -103,47 +103,47 @@ h2 {
   color: #00ffff;
   text-align: center;
   font-size: 3rem;
-  margin: 1%; }
+  margin: 1%;
+  text-shadow: 1px 1px #000;
+  text-transform: uppercase; }
 
-.gallery-thumb-box {
+.gallery-container {
   width: 95%;
   height: 85vh;
-  margin: auto;
+  margin: 1% 2.5%;
   padding: 0;
   background-color: black;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   position: absolute; }
-  .gallery-thumb-box .gallery-row {
+  .gallery-container .gallery-row {
     width: 95%;
     height: 45%;
-    margin: 1.5% 2.5%;
-    border: 1px dotted orange; }
-  .gallery-thumb-box .project-box {
+    margin: 1.5% 2.5%; }
+  .gallery-container .project-box {
     width: 20%;
     height: 90%;
     margin: 1% 2%;
     display: inline-block;
     vertical-align: middle;
-    border: 1px dashed white;
     border-radius: 2% 2%;
     box-shadow: 3px 1.5px rgba(0, 0, 0, 0.3);
     transition: all 0.5s ease-in-out; }
-    .gallery-thumb-box .project-box h3 {
+    .gallery-container .project-box h3 {
       text-align: center;
       font-size: 2.5rem;
       background-color: #000;
       margin: 0;
       color: #c3c022; }
-    .gallery-thumb-box .project-box p {
+    .gallery-container .project-box p {
       font-size: 90%;
       text-align: center;
       width: 100%;
       height: auto;
       margin: 0 auto;
       color: #03fa50; }
-    .gallery-thumb-box .project-box .sub-category {
+    .gallery-container .project-box .sub-category {
       font-size: 95%; }
-    .gallery-thumb-box .project-box:hover {
+    .gallery-container .project-box:hover {
       width: 19.5%;
       background-color: rgba(0, 0, 0, 0.5); }
 
@@ -158,5 +158,12 @@ h2 {
     margin: 0; }
     .projectThumbBox img:hover {
       opacity: 0.3; }
+  .projectThumbBox .project-description {
+    width: 19%;
+    height: 15%;
+    top: 19%;
+    background-color: white;
+    position: absolute;
+    opacity: 0.3%; }
 
 /*# sourceMappingURL=style.css.map */
