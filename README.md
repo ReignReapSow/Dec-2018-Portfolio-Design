@@ -7,7 +7,7 @@ Back-end (Reactjs, Nodejs<br>
 
 
 ### Version 
-1.6
+0.1
 
 
 #### Author
