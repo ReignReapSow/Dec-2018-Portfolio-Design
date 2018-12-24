@@ -3,15 +3,14 @@
 header{
   width: 99.8%;
   height: 6.5vh;
-  border: 1px solid blue;
   background-color: #000;
+  margin: 0;
   
   p {
     font: $primary-font;
     color: $secondary;
     margin: 1% 5%;
     font-size: 2rem;
-
   }
 }
 
@@ -21,20 +20,17 @@ nav{
   width: 60%;
   margin: 0 auto;
   float: right;
-  border: 1px dashed red;
 
   
 
   ul{
     margin: 0;
     height: 100%;
-    border: 1px dashed yellow;
 
     li{
       display: inline-block;
       margin: 0 2%;
       height: 59%;
-      border: 1px dashed green;
       padding: 1%;
       text-align: center;
       
@@ -42,7 +38,7 @@ nav{
     }
   }
   a{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     word-spacing: 4px;
     color: $primary;
     text-decoration: none;

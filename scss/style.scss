@@ -2,12 +2,7 @@
   Name font: Aardvark Cafe
   Main font: Futura Black BT
 
-  
 
-  Primary Colors
-  Green: #03fa50;
-  Blue:  #010fc7;
-  brown: #93901a;
 */
 
 @font-face {
@@ -28,24 +23,24 @@ $secondary-font: Aardvark;
 //Primary Colors
 $primary: #010fc7;
 $secondary: #03fa50;
-$tertiary:  #93901a;
+$tertiary:  #c3c022;
+$fourth: #00ffff;
 
-body { 
+//body set-up
+body {
   height: auto;
   margin: 0;
   padding: 0;
   width: 100%;
-  //z-index: 1;
-  //position: absolute;
 
 
-
-
-section {
-  width: 100%;
-  height: 100vh;
-  border: 1px dotted yellow;
+  section {
+    width: 100%;
+    height: 100vh;
+    border: 1px dotted yellow;
+  }
 }
+
 
   //import home
   @import '_home.scss';
@@ -61,5 +56,5 @@ section {
   //import footer
   @import '_footer.scss';
 
-}
+
 
