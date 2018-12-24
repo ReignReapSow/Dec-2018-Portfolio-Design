@@ -3,6 +3,8 @@
 .personal-data
 scss/style.css.map
 .idea/
+.idea/workspace.xml
+
 scss/.sass-cache
 scss/fonts/AARDVARK_CAFE.TTF
 scss/fonts/FUTURA_BLACK_BT.ttf
