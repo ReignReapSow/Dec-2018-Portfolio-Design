@@ -23,4 +23,5 @@ Back-end (Reactjs, Nodejs)<br>
 
  ##### SITE
  www.reignwestry.com
+ (When the first draft is completed it will be uploaded)
  
