@@ -12,3 +12,8 @@ scss/fonts/AARDVARK_CAFE.TTF
 scss/fonts/FUTURA_BLACK_BT.ttf
 scss/fonts/aardvark_cafe.zip
 scss/fonts/futurablack-bt.zip
+
+        Portfolio-Design-6-CURRENT.code-workspace
+        node_modules/
+        package-lock.json
+        package.json
