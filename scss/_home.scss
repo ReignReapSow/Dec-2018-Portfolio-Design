@@ -18,19 +18,20 @@
     color: $secondary;
     font-size: 5rem;
     margin: 0;
-    text-shadow: 4px 2px #000;
-    font: $primary-font;
+    text-shadow:  4px 2px #000,;
+    font-family: $primary-font;
 
   }
 
   span {
+    font-family: $secondary-font;
     font-size: 2rem;
     color: $tertiary;
-    text-shadow: 2px 2px #000;
+    text-shadow: 1px 1px #000, 2px 1px $tetrad-color;
     text-transform: uppercase;
   }
 }
-
+//TODO ADD fade in and out animation
 .MockUp-One-Box {
     //z-index: 2;
     //position:absolute;

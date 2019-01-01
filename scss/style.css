@@ -19,8 +19,7 @@ body {
   width: 100%; }
   body section {
     width: 100%;
-    height: 100vh;
-    border: 1px dotted yellow; }
+    height: 100vh; }
 
 /* home*/
 #home {
@@ -39,11 +38,12 @@ body {
     font-size: 5rem;
     margin: 0;
     text-shadow: 4px 2px #000;
-    font: Futura; }
+    font-family: Futura; }
   #heroTitle-box span {
+    font-family: Aardvark;
     font-size: 2rem;
     color: #c3c022;
-    text-shadow: 2px 2px #000;
+    text-shadow: 1px 1px #000, 2px 1px #00ffff;
     text-transform: uppercase; }
 
 .MockUp-One-Box {
@@ -60,7 +60,7 @@ header {
   text-shadow: 1px 1px #000;
   margin: 0; }
   header p {
-    font: Futura;
+    font-family: Futura;
     color: #03fa50;
     margin: 1% 5%;
     font-size: 2rem; }
@@ -74,6 +74,7 @@ nav {
     margin: 0;
     height: 100%; }
     nav ul li {
+      font-family: Aardvark;
       display: inline-block;
       margin: 0 2%;
       height: 59%;
@@ -97,14 +98,17 @@ nav {
 #gallery {
   width: 100%;
   height: 100vh;
-  background-color: #010fc7; }
+  background-color: #010fc7;
+  margin: 0; }
 
 h2 {
+  font-family: Futura;
   color: #00ffff;
   text-align: center;
   font-size: 3rem;
-  margin: 1%;
-  text-shadow: 1px 1px #000;
+  margin: 0;
+  text-shadow: 1px 1px #000, 2px 1px #c3c022;
+  letter-spacing: 3px;
   text-transform: uppercase; }
 
 .gallery-container {
@@ -133,16 +137,22 @@ h2 {
       font-size: 2.5rem;
       background-color: #000;
       margin: 0;
-      color: #c3c022; }
+      color: #c3c022;
+      font-family: Futura;
+      letter-spacing: 2px; }
+      .gallery-container .project-box h3:hover {
+        text-shadow: 1px 1px #00ffff; }
     .gallery-container .project-box p {
       font-size: 90%;
       text-align: center;
       width: 100%;
       height: auto;
       margin: 0 auto;
-      color: #03fa50; }
+      color: #03fa50;
+      font-family: Aardvark; }
     .gallery-container .project-box .sub-category {
-      font-size: 95%; }
+      font-size: 95%;
+      color: #00ffff; }
     .gallery-container .project-box:hover {
       width: 19.5%;
       background-color: rgba(0, 0, 0, 0.5); }
@@ -172,6 +182,7 @@ h2 {
       top: -51%;
     }*/ }
     .projectThumbBox .project-description p {
+      font-family: Aardvark;
       position: inherit;
       text-transform: rgba(0, 0, 0, 0.1);
       background-color: green;
@@ -188,74 +199,81 @@ h2 {
 .flex-container {
   display: flex;
   flex-direction: row;
-  border: 1px dashed red;
   width: 95vw;
   height: 95vh;
   margin: 0 2.5vw; }
   .flex-container .about-img {
     flex-direction: column;
-    border: 1px dashed blue;
     color: black;
     height: 100%; }
     .flex-container .about-img .developer-img {
+      margin: 10% 0 0 0;
       height: 60vh;
       width: auto; }
-  .flex-container h3 {
-    color: #03fa50;
-    text-shadow: 2px 1.5px rgba(0, 0, 0, 0.5);
-    width: 100%;
-    border: 1px dotted red;
-    font-size: 200%;
-    text-align: center;
-    margin: 0; }
-    .flex-container h3 span {
-      width: 10vw;
-      height: 5vh;
+    .flex-container .about-img h3 {
+      color: #03fa50;
+      font-family: Futura;
+      font-size: 250%;
       text-align: center;
-      border: 1px dashed black;
-      font-size: 80%;
-      text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
-      color: #c3c022; }
+      margin: 0;
+      text-shadow: 1px 1px #000, 2px 1px #c3c022;
+      letter-spacing: 3px; }
+      .flex-container .about-img h3 span {
+        font-family: Aardvark;
+        width: 10vw;
+        height: 5vh;
+        text-align: center;
+        font-size: 80%;
+        color: #c3c022;
+        text-shadow: 1px 1px #000, 2px 1px #00ffff;
+        letter-spacing: 3px; }
 
 .skills-section {
   flex-direction: column;
   background-color: #000;
   width: 100%;
-  height: 100%;
-  border: 1px dashed green; }
+  height: 100%; }
   .skills-section .about-para {
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 120%;
     height: 31vh; }
     .skills-section .about-para p {
+      font-family: Aardvark;
+      font-size: 150%;
       margin: 1% 5%;
       text-align: center;
       color: #03fa50; }
   .skills-section h2 {
-    border: 1px solid blue;
-    margin: 0; }
+    Font-family: Futura;
+    margin: 0;
+    text-shadow: 1px 1px #000, 2px 1px #c3c022;
+    letter-spacing: 3px; }
 
 .skill-lists-container {
   display: flex;
   flex-direction: row;
-  border: 1px solid orange;
   width: 100%;
   height: 56vh;
   margin: 0; }
-  .skill-lists-container .programming-list > li, .skill-lists-container .language-list > li {
-    color: #03fa50; }
+  .skill-lists-container .programming-list {
+    color: #c3c022; }
 
 .skill-list-box {
   flex-direction: column;
-  border: 1px solid green;
   width: 50%;
   height: 100%; }
   .skill-list-box h3 {
+    font-size: 220%;
+    text-align: center;
+    text-shadow: 1px 1px #000, 2px 1px #c3c022;
+    letter-spacing: 3px;
+    font-family: Futura;
     color: #00ffff;
     text-decoration: underline;
     text-decoration-color: #03fa50; }
   .skill-list-box ul {
-    list-style: none; }
+    list-style: none;
+    font-family: Aardvark; }
     .skill-list-box ul li {
       text-decoration: none;
       text-align: center;
@@ -264,10 +282,19 @@ h2 {
 .web-tech-list {
   flex-direction: column;
   width: 50%;
-  border: 1px solid red;
   height: 100%; }
+  .web-tech-list h3 {
+    font-size: 220%;
+    text-align: center;
+    text-shadow: 1px 1px #000, 2px 1px #c3c022;
+    letter-spacing: 3px;
+    color: #03fa50;
+    text-decoration: underline;
+    text-decoration-color: #00ffff;
+    font-family: Aardvark; }
   .web-tech-list ul {
-    list-style: none; }
+    list-style: none;
+    font-family: Aardvark; }
     .web-tech-list ul li {
       color: #00ffff;
       width: 100%;
@@ -275,10 +302,28 @@ h2 {
       text-align: center;
       font-size: 150%; }
 
-.color-flip {
-  color: #03fa50;
-  text-decoration: underline;
-  text-decoration-color: #00ffff;
-  font: Aardvark; }
+.mobile-tech-box {
+  width: 100%;
+  height: auto;
+  margin: 10% 0; }
+  .mobile-tech-box h3 {
+    color: #03fa50;
+    text-decoration: underline;
+    text-decoration-color: #00ffff;
+    font-family: Aardvark; }
+  .mobile-tech-box ul {
+    list-style: none;
+    font-family: Aardvark; }
+    .mobile-tech-box ul li {
+      color: #00ffff;
+      width: 100%;
+      text-decoration: none;
+      text-align: center;
+      font-size: 150%; }
+
+footer {
+  width: 100%;
+  height: 10vh;
+  border: 1px solid #00ffff; }
 
 /*# sourceMappingURL=style.css.map */

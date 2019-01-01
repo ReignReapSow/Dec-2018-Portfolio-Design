@@ -7,7 +7,7 @@ header{
   margin: 0;
   
   p {
-    font: $primary-font;
+    font-family: $primary-font;
     color: $secondary;
     margin: 1% 5%;
     font-size: 2rem;
@@ -28,6 +28,7 @@ nav{
     height: 100%;
 
     li{
+      font-family: $secondary-font;
       display: inline-block;
       margin: 0 2%;
       height: 59%;
@@ -45,7 +46,7 @@ nav{
   a{
     font-size: 1.5rem;
     word-spacing: 4px;
-    color: $fourth;
+    color: $tetrad-color;
     text-decoration: none;
     padding: auto;
     text-transform: uppercase;
