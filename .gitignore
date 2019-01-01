@@ -6,6 +6,7 @@
 .MockUp/
 .vscode/
 
+
 # BLOCKED FILES
 scss/style.css.map
 scss/.sass-cache
@@ -17,4 +18,3 @@ Portfolio-Design-6-CURRENT.code-workspace
 node_modules/
 package-lock.json
 package.json
-gulpfile.js
