@@ -44,6 +44,37 @@
                 letter-spacing: 3px;
             }
         }
+
+        ul {
+            width: 90%;
+            border: 1px solid orange;
+            height: 20vh;
+
+            li  {
+                text-align: left;
+                list-style: none;
+
+
+                a {
+                    text-decoration: none;
+                    color: $tertiary;
+                    font-size: 1.5rem;
+
+                    i {
+                        color: $tetrad-color;
+                    }
+
+                    &:hover {
+                        color: $secondary;
+                        text-shadow: 1px 1px #000, 2px 1px $tetrad-color;
+                    }
+                }
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
     }
 
 

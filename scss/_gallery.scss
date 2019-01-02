@@ -32,6 +32,7 @@ h2 {
     width: 95%;
     height: 45%;
     margin: 1.5% 2.5%;
+    veritcal-align: middle;
 
   }
 
@@ -55,9 +56,7 @@ h2 {
       font-family: $primary-font;
       letter-spacing: 2px;
 
-      &:hover {
-        text-shadow: 1px 1px $tetrad-color;
-      }
+
     }
 
     p {
@@ -78,6 +77,11 @@ h2 {
     &:hover {
       width: 19.5%;
       background-color: rgba(0,0,0,0.5);
+
+      h3 {
+        text-shadow: 1px 1px #000, 2px 1px $tetrad-color;
+        letter-spacing: 3px;
+      }
     }
   }
 }

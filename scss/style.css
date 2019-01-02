@@ -37,7 +37,7 @@ body {
     color: #03fa50;
     font-size: 5rem;
     margin: 0;
-    text-shadow: 4px 2px #000;
+    text-shadow: 1px 1px #c3c022, 4px 2px #000;
     font-family: Futura; }
   #heroTitle-box span {
     font-family: Aardvark;
@@ -63,7 +63,8 @@ header {
     font-family: Futura;
     color: #03fa50;
     margin: 1% 5%;
-    font-size: 2rem; }
+    font-size: 2rem;
+    text-shadow: 1px 1px #c3c022, 4px 2px #000; }
 
 nav {
   height: 100%;
@@ -122,7 +123,8 @@ h2 {
   .gallery-container .gallery-row {
     width: 95%;
     height: 45%;
-    margin: 1.5% 2.5%; }
+    margin: 1.5% 2.5%;
+    veritcal-align: middle; }
   .gallery-container .project-box {
     width: 20%;
     height: 90%;
@@ -140,8 +142,6 @@ h2 {
       color: #c3c022;
       font-family: Futura;
       letter-spacing: 2px; }
-      .gallery-container .project-box h3:hover {
-        text-shadow: 1px 1px #00ffff; }
     .gallery-container .project-box p {
       font-size: 90%;
       text-align: center;
@@ -156,6 +156,9 @@ h2 {
     .gallery-container .project-box:hover {
       width: 19.5%;
       background-color: rgba(0, 0, 0, 0.5); }
+      .gallery-container .project-box:hover h3 {
+        text-shadow: 1px 1px #000, 2px 1px #00ffff;
+        letter-spacing: 3px; }
 
 .projectThumbBox {
   width: 100%;
@@ -227,6 +230,24 @@ h2 {
         color: #c3c022;
         text-shadow: 1px 1px #000, 2px 1px #00ffff;
         letter-spacing: 3px; }
+    .flex-container .about-img ul {
+      width: 90%;
+      border: 1px solid orange;
+      height: 20vh; }
+      .flex-container .about-img ul li {
+        text-align: left;
+        list-style: none; }
+        .flex-container .about-img ul li a {
+          text-decoration: none;
+          color: #c3c022;
+          font-size: 1.5rem; }
+          .flex-container .about-img ul li a i {
+            color: #00ffff; }
+          .flex-container .about-img ul li a:hover {
+            color: #03fa50;
+            text-shadow: 1px 1px #000, 2px 1px #00ffff; }
+        .flex-container .about-img ul li:hover {
+          text-decoration: underline; }
 
 .skills-section {
   flex-direction: column;
@@ -320,6 +341,93 @@ h2 {
       text-decoration: none;
       text-align: center;
       font-size: 150%; }
+
+#contact {
+  border: 1px dashed red;
+  background-color: black;
+  height: 70vh;
+  display: flex;
+  flex-direction: column; }
+
+.contact-data-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  color: white;
+  width: 100%;
+  height: 98%;
+  background-color: darkgrey; }
+
+.contact-data {
+  flex-grow: 1;
+  border: 1px dashed yellow;
+  color: white;
+  height: 100%;
+  margin: 0; }
+
+.map-container {
+  border: 1px dashed white;
+  width: 30vw;
+  height: 100%;
+  margin: 0; }
+
+.contact-form {
+  border: 1px dashed green;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 20vw;
+  height: 50vh;
+  margin: 0; }
+
+form {
+  background-color: #010fc7;
+  width: 40vw;
+  height: 64vh;
+  margin: 0; }
+  form fieldset {
+    width: 91%;
+    height: 48%;
+    margin: 0 2.5%; }
+    form fieldset label {
+      font-family: Futura;
+      letter-spacing: 1.2px;
+      font-size: 1rem; }
+    form fieldset input {
+      font-family: Aardvark;
+      font-size: 1.5rem;
+      width: 94%;
+      height: 12%;
+      margin: 1% 5%; }
+      form fieldset input:focus {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #c3c022; }
+      form fieldset input:visited {
+        color: #00ffff;
+        background: rgba(0, 0, 0, 0.1); }
+  form textarea {
+    margin: 3% 0 2.5% 2.5%;
+    width: 94%;
+    height: 25%;
+    overflow: hidden;
+    font-family: Aardvark;
+    font-size: 1.5rem; }
+    form textarea:focus {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #c3c022; }
+  form button {
+    margin: 2% 5%;
+    width: 90%;
+    height: 8%;
+    font-family: Futura;
+    font-size: 2rem;
+    color: #010fc7; }
+    form button:hover {
+      background-color: green;
+      color: #c3c022;
+      box-shadow: 2px 2px #000, 2px 1px #c3c022;
+      text-shadow: 1px 1px #000, 2px 1px #00ffff; }
+    form button:visited {
+      background: #000; }
 
 footer {
   width: 100%;

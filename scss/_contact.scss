@@ -1,0 +1,124 @@
+//contact.scss
+#contact{
+  border: 1px dashed red;
+  background-color: black;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.contact-data-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  color: white;
+  width: 100%;
+  height: 98%;
+  background-color: darkgrey;
+}
+.contact-data {
+  flex-grow: 1;
+  border: 1px dashed yellow;
+  color: white;
+  height: 100%;
+  margin: 0;
+
+}
+.map-container{
+  border: 1px dashed white;
+  width: 30vw;
+  height: 100%;
+  margin: 0;
+
+}
+
+.contact-form {
+  border: 1px dashed green;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 20vw;
+  height: 50vh;
+  margin: 0;
+}
+
+form{
+  background-color: $primary;
+  width: 40vw;
+  height: 64vh;
+  margin: 0;
+
+
+  fieldset{
+    width: 91%;
+    height: 48%;
+    margin: 0 2.5%;
+
+    label{
+      font-family: $primary-font;
+      letter-spacing: 1.2px;
+      font-size: 1rem;
+
+      //TODO on input completion transform text color $tetrad-color to $tertiary star with
+    }
+    input {
+      font-family: $secondary-font;
+      font-size: 1.5rem;
+      width: 94%;
+      height: 12%;
+      margin: 1% 5%;
+
+      &:focus {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: $tertiary;
+      }
+
+      &:visited {
+        color: $tetrad-color;
+        background: rgba(0,0,0,0.1);
+      }
+
+
+    }
+
+
+  }
+
+  textarea {
+    margin: 3% 0 2.5% 2.5%;
+    width: 94%;
+    height: 25%;
+    overflow: hidden;
+    font-family: $secondary-font;
+    font-size: 1.5rem;
+
+
+    &:focus {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: $tertiary;
+    }
+  }
+
+  button{
+    margin: 2% 5%;
+    width: 90%;
+    height: 8%;
+    font-family: $primary-font;
+    font-size: 2rem;
+    color: $primary;
+
+    &:hover {
+      background-color: green;
+      color: $tertiary;
+      box-shadow: 2px 2px #000, 2px 1px $tertiary;
+      text-shadow: 1px 1px #000, 2px 1px $tetrad-color;
+    }
+
+    //TODO AFTER message sent change txt to "Thank you for your business. I will reply within 24 hrs"
+    &:visited {
+      background: #000;
+    }
+  }
+}
+
