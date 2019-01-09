@@ -28,12 +28,14 @@ $tertiary:  #c3c022;
 $tetrad-color: #00ffff;
 
 //body set-up
-body {
-  height: auto;
+* {
   margin: 0;
   padding: 0;
-  width: 100%;
+}
 
+body {
+  height: auto;
+  width: 99.9vw;
 
   section {
     width: 100%;

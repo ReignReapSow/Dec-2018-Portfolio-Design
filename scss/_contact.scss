@@ -25,6 +25,18 @@
   height: 100%;
   margin: 0;
 
+  .contact-para {
+    border: 1px dashed gold;
+    width: 30vw;
+    height: 30vh;
+
+    p {
+      font-family: $secondary-font;
+      font-size: 120%;
+      margin: 5%;
+    }
+  }
+
 }
 .map-container{
   border: 1px dashed white;
@@ -46,25 +58,25 @@
 form{
   background-color: $primary;
   width: 40vw;
-  height: 64vh;
+  height: 62vh;
   margin: 0;
 
 
   fieldset{
     width: 91%;
     height: 48%;
-    margin: 0 2.5%;
+    margin: 2% 2.5%;
 
     label{
       font-family: $primary-font;
       letter-spacing: 1.2px;
-      font-size: 1rem;
+      font-size: 1em;
 
       //TODO on input completion transform text color $tetrad-color to $tertiary star with
     }
     input {
       font-family: $secondary-font;
-      font-size: 1.5rem;
+      font-size: 1.5em;
       width: 94%;
       height: 12%;
       margin: 1% 5%;
@@ -91,7 +103,7 @@ form{
     height: 25%;
     overflow: hidden;
     font-family: $secondary-font;
-    font-size: 1.5rem;
+    font-size: 1.5em;
 
 
     &:focus {
@@ -101,11 +113,11 @@ form{
   }
 
   button{
-    margin: 2% 5%;
+    margin: 1.5% 5%;
     width: 90%;
     height: 8%;
     font-family: $primary-font;
-    font-size: 2rem;
+    font-size: 2em;
     color: $primary;
 
     &:hover {

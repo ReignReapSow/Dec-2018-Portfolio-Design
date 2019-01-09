@@ -10,7 +10,7 @@ h2 {
   font-family: $primary-font;
   color: $tetrad-color;
   text-align: center;
-  font-size: 3rem;
+  font-size: 3em;
   margin: 0;
   text-shadow: 1px 1px #000, 2px 1px $tertiary;
   letter-spacing: 3px;
@@ -29,7 +29,10 @@ h2 {
 
 
   .gallery-row{
-    width: 95%;
+    display: flex;
+    flex-direction: row;
+
+    flex-basis: 95%;
     height: 45%;
     margin: 1.5% 2.5%;
     veritcal-align: middle;
@@ -49,7 +52,7 @@ h2 {
 
     h3 {
       text-align: center;
-      font-size: 2.5rem;
+      font-size: 2.5em;
       background-color: #000;
       margin: 0;
       color: $tertiary;
@@ -125,7 +128,7 @@ h2 {
       background-color: green;
       color: black;
       width: 100%;
-      font-size: 2rem;
+      font-size: 2em;
       opacity: 0.0;
 
     }

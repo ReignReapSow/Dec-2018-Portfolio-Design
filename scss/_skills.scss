@@ -9,10 +9,11 @@
     background-color: rgba(0,0,0,0.5);
     font-size: 120%;
     height: 31vh;
+    border: 1px dashed yellow;
 
     p {
       font-family: $secondary-font;
-      font-size: 150%;
+      font-size: 1.5em;
       margin: 1% 5%;
       text-align: center;
       color: $secondary;
