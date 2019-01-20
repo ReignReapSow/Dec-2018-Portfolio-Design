@@ -1,8 +1,13 @@
 # Portfolio Design
 A portfolio design to showcase my lastest skills, experiences, and work.
+<h3>Features</h3>
+<ul>
+    <li>CSS FLEXBOX</li>
+</ul>
 
-# NOTE
+## NOTE
 This Project will be a slow on going process, because...<br> 
+(Some times the best designs are the one's you build on like a brick house)</span><br> 
     -Learning and reviewing new & old technologies simultaneously<br> 
     -Learning GIT through the command line<br>
     -Continuously updated as I learn more GIT and better ways to showcase my projects.<br>

@@ -1,8 +1,7 @@
 //contact.scss
 #contact{
-  border: 1px dashed red;
   background-color: black;
-  height: 70vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 
@@ -58,13 +57,13 @@
 form{
   background-color: $primary;
   width: 40vw;
-  height: 62vh;
+  height: 90vh;
   margin: 0;
 
 
   fieldset{
     width: 91%;
-    height: 48%;
+    height: 55%;
     margin: 2% 2.5%;
 
     label{
@@ -98,7 +97,7 @@ form{
   }
 
   textarea {
-    margin: 3% 0 2.5% 2.5%;
+    margin: 1% 0 2% 2.5%;
     width: 94%;
     height: 25%;
     overflow: hidden;
@@ -113,7 +112,7 @@ form{
   }
 
   button{
-    margin: 1.5% 5%;
+    margin: 0 5%;
     width: 90%;
     height: 8%;
     font-family: $primary-font;

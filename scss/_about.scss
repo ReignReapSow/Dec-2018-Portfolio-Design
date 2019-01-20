@@ -1,31 +1,35 @@
 // ABOUT SECTION
 #about {
     background-color: #000;
-
+    height: 100vh;
 }
+
 .flex-container{
     display: flex;
     flex-direction: row;
-    width: 95vw;
+    flex-basis: 95vw;
     height: 95vh;
-    margin: 0 2.5vw;
+    justify-content: center;
+    align-content: space-around;
+    border: 1px dashed red;
 
-
-    .about-img{
+    .about-img-box{
         flex-direction: column;
         color: black;
         height: 100%;
+        border: 1px dashed yellow;
+
 
         .developer-img {
             margin: 10% 0 0 0;
-            height: 60vh;
+            height: 40vh;
             width: auto;
         }
 
         h3{
             color: $secondary;
             font-family: $primary-font;
-            font-size: 250%;
+            font-size: 2vw;
             text-align: center;
             margin: 0;
             text-shadow: 1px 1px #000, 2px 1px $tertiary;
@@ -38,7 +42,7 @@
                 width: 10vw;
                 height: 5vh;
                 text-align: center;
-                font-size: 80%;
+                font-size: 1.3vw;
                 color: $tertiary;
                 text-shadow: 1px 1px #000, 2px 1px $tetrad-color;
                 letter-spacing: 3px;
@@ -48,6 +52,7 @@
         ul {
             width: 90%;
             height: 20vh;
+            margin: 0 2vw;
 
             li  {
                 text-align: left;
@@ -80,3 +85,42 @@
 }
 
 
+/*
+@media screen and (min-width: 1198px ) {
+
+    //Laptop RESPONSIVE VIEW
+
+
+    .about-para p{
+        font-size: .2vw;
+        text-wrap: none;
+    }
+
+
+}
+*/
+
+
+/*
+//TABLET VIEW RESPONSIVENESS FOR ALL COMPONENTS
+
+@media screen and (max-width:1024px ) {
+
+    //TABLET RESPONSIVE VIEW
+
+
+    .about-para p{
+        font-size: 1px;
+        text-wrap: none;
+    }
+
+
+}
+
+@media screen and (max-width:425px ) {
+
+    //Phone RESPONSIVE VIEW
+
+}
+
+*/

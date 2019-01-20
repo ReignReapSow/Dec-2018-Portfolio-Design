@@ -15,7 +15,7 @@
       <meta name="description" content="Reign Westry's Full-Stack Developer Portfolio - seeking remote opportunities and projects to build beautiful, responsive, cutting-edge web and mobile applications.">
       <meta name="keywords" content="HTML,CSS,XML,JavaScript,Reactjs, OOP, Object Oriented Programming, Bootstrap, Developer, SEO, github, template, web developer portfolio, web developer portfolio ideas, webmaster, front-end designer, front-end developer, back-end developer, remote developer, mobile developer, junior web developer, entry-level developer, android developer, ios developer, ios, android app developer, mobile applications,  website developer, web page editor, jr. web developer, full-stack developer">
       <meta name="author" content="Reign Westry">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="scss/style.css">
 
       <!-- Font Awesome 5.6.3 -->
@@ -25,17 +25,22 @@
   <body>
     <section id="home">
       <header>
-          <nav>
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sites</a></li>
-                <li><a href="#">iOs</a></li>
-                <li><a href="#">Android</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+          <p>Reign Westry <span>Under Construction</span></p>
+          <nav class="">
+              <ul class="dropdown">
+                  <li><i class="fas fa-bars fa-3x"></i>
+                  <ul class="dropdown-content">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Sites</a></li>
+                      <li><a href="#">iOs</a></li>
+                      <li><a href="#">Android</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Contact</a></li>
+                  </ul>
+                  </li>
               </ul>
+
             </nav>
-          <p>Reign Westry</p>
          
         </header>
         <!--div class="MockUp-One-Box">
@@ -109,7 +114,6 @@
 
           </div>
 
-
           <div class="gallery-row">
               <!-- FIRST ROW -->
 
@@ -121,7 +125,7 @@
                       </div>
                   </div>
                   <h3>Project Name</h3>
-                  <p class="sub-category">Project Type</p>
+                  <p class="sub-category">Personal Project</p>
                   <p>(HTML, SCSS, PHP,HTML, SCSS, PHP,)</p>
               </div>
 
@@ -133,7 +137,7 @@
                       </div>
                   </div>
                   <h3>Project Name</h3>
-                  <p class="sub-category">Project Type</p>
+                  <p class="sub-category">Open Source</p>
                   <p>(HTML, SCSS, PHP,HTML, SCSS, PHP,)</p>
               </div>
 
@@ -145,7 +149,7 @@
                       </div>
                   </div>
                   <h3>Project Name</h3>
-                  <p class="sub-category">Project Type</p>
+                  <p class="sub-category">Client App</p>
                   <p>(HTML, SCSS, PHP,HTML, SCSS, PHP,)</p>
               </div>
 
@@ -172,9 +176,10 @@
         TODO
     -->
     <section id="about">
-
-        <div class=" flex-container">
-            <div class="about-img">
+        <h2>About</h2>
+        
+        <div class="flex-container">
+            <div class="about-img-box">
 
                 <img src="imgs/Portrait/Professional_portrait.png" alt="Reign Westry - Full-Stack Developer" class="developer-img">
                 <h3>Reign Westry<br>
@@ -186,17 +191,15 @@
                 </ul>
 
             </div>
+
             <div class="skills-section">
-                <h2>About</h2>
                 <div class="about-para">
                     <p>5 year Full-Stack Developer based out of the Atlanta Area. My specialities are Web & App design and development.
-                        blanditiis ducimus eos et fugiat illo ipsum laboriosam magni nam praesentium reiciendis
-                        sapiente, tempora veniam veritatis voluptas?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi aspernatur atque aut
-                        blanditiis ducimus eos et fugiat illo ipsum laboriosam magni nam praesentium reiciendis
-                        sapiente, tempora veniam veritatis voluptas?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi aspernatur atque aut
-                        blanditiis ducimus eos et fugiat illo ipsum laboriosam magni nam praesentium reiciendis
-                        sapiente, tempora veniam veritatis voluptas?</p>
+                        My main goal is to become a full-stack developer to develop client's
+                        ideas and dreams into legitimate projects by solving their problems
+                        through web & app development. </p>
                 </div>
+
                 <div class="skill-lists-container">
 
 
@@ -255,30 +258,29 @@
             <div class="map-container">
 
             </div>
-            <div class="contact-form-container">
 
-                <form>
-                    <fieldset>
-                        <label>First Name<span>*</span></label><br>
-                            <input type="text" class="fname" placeholder="Mike"><br>
-                        <label>Last Name<span>*</span></label><br>
-                            <input type="text" class="lname" placeholder="Jones"><br>
-                        <label>Email<span>*</span></label><br>
-                            <input type="email" class="email" placeholder="mJones@gmail.com"><br>
-                        <label>Phone</label><br>
-                            <input type="tel" class="phone" placeholder="(000) 000 - 0000">
-                    </fieldset>
-                    <textarea class="message" placeholder="Send me a description of the project you want me to do with the due date. Please provide a due date."></textarea>
-                    <button>Send Message</button>
-                </form>
-            </div>
+
+            <form>
+                <fieldset>
+                   <label>First Name<span>*</span></label><br>
+                       <input type="text" class="fname" placeholder="Mike"><br>
+                   <label>Last Name<span>*</span></label><br>
+                       <input type="text" class="lname" placeholder="Jones"><br>
+                   <label>Email<span>*</span></label><br>
+                       <input type="email" class="email" placeholder="mJones@gmail.com"><br>
+                   <label>Phone</label><br>
+                       <input type="tel" class="phone" placeholder="(000) 000 - 0000">
+                </fieldset>
+                <textarea class="message" placeholder="Send me a description of the project you want me to do with the due date. Please provide a due date."></textarea>
+                <button>Send Message</button>
+            </form>
+
             <div class="contact-data">
                 <div class="contact-para">
                     <p>First, I hope you loved my design and checked out my projects as much as I enjoyed creating them. If you have any projects you would like to create or some help on a project. Please don't hesitate to send me a message. What are you waiting for? Take the first step...</p>
 
                 </div>
                 <p>Always available for Remote Work</p>
-                <a href="tel:4047404239">Tel: (404) 740 - 4239</a><br>
                 <a href="https://email:reign@reignwestry.com">Email: reign@reignwestry.com</a><br>
 
             </div>
